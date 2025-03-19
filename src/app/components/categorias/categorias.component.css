@@ -1,0 +1,28 @@
+.categorias {
+    margin-top: 50px;
+  }
+  
+  .categoria-item {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+  }
+  
+  .categoria-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .categoria-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 17px;
+    background-color: #ffffff;
+  }
+
+  .bor-bar {
+    background-color: #f6f6f6;
+    height: 10px;
+}
+  

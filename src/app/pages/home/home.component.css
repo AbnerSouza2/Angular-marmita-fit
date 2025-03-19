@@ -1,0 +1,15 @@
+.home-nutri h2 {
+    text-align: left;
+    position: relative;
+    padding: 5px 10px;
+}
+
+.home-nutri h2.heading::before {
+    content: "";
+    width: 200px;
+    height: 23px;
+    background-color: #ffbd59;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+}

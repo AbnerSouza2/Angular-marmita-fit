@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-md-4 mb-4" *ngFor="let nutricionista of nutricionistas">
+    <div class="card">
+      <img [src]="nutricionista.foto" class="card-img-top" alt="Nutricionista">
+      <div class="card-body text-center">
+        <h5 class="card-title">{{ nutricionista.nome }}</h5>
+        <p class="card-text">⭐⭐⭐⭐⭐ {{ nutricionista.avaliacao }} / 5</p>
+        <div class="d-flex justify-content-center gap-2">
+          <a [href]="'https://wa.me/' + nutricionista.whatsapp" class="btn btn-success" target="_blank">
+            WhatsApp
+          </a>
+          <button class="btn btn-outline-danger" (click)="verPerfil(nutricionista)">
+            Ver Perfil
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bor-bar"></div>

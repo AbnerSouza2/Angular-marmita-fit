@@ -1,0 +1,31 @@
+<div id="promocoesCarousel" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item" [class.active]="i === 0" *ngFor="let grupo of pratosAgrupados; let i = index">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3" *ngFor="let prato of grupo">
+              <div class="card promocao-card">
+                <img [src]="prato.foto" class="card-img-top">
+                <div class="card-body text-center">
+                  <h5>{{ prato.nome }}</h5>
+                  <p class="preco-original">{{ prato.valorOriginal }}</p>
+                  <p class="preco-promocao">{{ prato.valorPromocional }}</p>
+                  <a [href]="getWhatsAppLink(prato.whatsapp)" target="_blank" class="btn btn-success">
+                    Fazer Pedido
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <button class="carousel-control-prev" type="button" data-bs-target="#promocoesCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bg-dark rounded-circle p-2"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#promocoesCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-dark rounded-circle p-2"></span>
+    </button>
+  </div>
+  

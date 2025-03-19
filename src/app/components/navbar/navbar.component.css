@@ -1,0 +1,70 @@
+.navbar {
+    background-color: #000000 !important;
+    padding: 12px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand img {
+    height: 60px;
+  }
+
+  .nav-bar{
+    max-width: 1720px !important;
+  }
+  
+  .navbar-nav .nav-link {
+    font-weight: 500;
+    color: #ffffff !important;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffc93f !important;
+  }
+  
+  .btn-outline-light {
+    font-weight: 600;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .btn-light {
+    background-color: #ffb600;
+    color: #000000;
+    font-weight: 600;
+
+  }
+  
+  .btn-light:hover {
+    background-color: #ffc532;
+    color: #000000;
+  }
+  
+  .navbar-toggler {
+    border-color: #ffb600;
+  }
+  
+  .navbar-toggler-icon {
+    filter: invert(100%);
+  }
+  
+  .btn-entrar{
+    background-color: white;
+    color: #000000;
+    width: 120px;
+    height: 45px;
+  }
+  
+  .btn-entrar:hover{
+    background-color: #ffb600;
+    border-color: #ffb600;
+  }
+
+  .btn-cadastrar{
+    border-color: #ffb600;
+    width: 120px;
+    height: 45px;
+  }

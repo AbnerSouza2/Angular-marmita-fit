@@ -1,59 +1,65 @@
-# FrontendMarmitaFit
+# 🥗 Projeto Marmita Fit
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+Projeto desenvolvido com **Angular** e **Bootstrap**, destinado a conectar nutricionistas que vendem marmitas fit com clientes interessados em alimentação saudável.
 
-## Development server
+## 🔧 Pré-requisitos
 
-To start a local development server, run:
+- [Node.js](https://nodejs.org/) (versão LTS recomendada)
+- [Angular CLI](https://angular.io/cli)
 
+Instale o Angular CLI com o seguinte comando:
 ```bash
-ng serve
+npm install -g @angular/cli
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🚀 Instalação do Projeto
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
+Clone o repositório do projeto:
 ```bash
-ng generate component component-name
+git clone https://github.com/AbnerSouza2/estudoAngular.git
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
+Entre no diretório do projeto:
 ```bash
-ng generate --help
+cd estudoAngular
 ```
 
-## Building
-
-To build the project run:
-
+Instale as dependências necessárias:
 ```bash
-ng build
+npm install
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## ▶️ Rodando o projeto localmente
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
+Após instalar as dependências, rode o seguinte comando:
 ```bash
-ng test
+ng serve --open
 ```
 
-## Running end-to-end tests
+O servidor será aberto automaticamente no seu navegador:
 
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
+```
+http://localhost:4200
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## 🎯 Recursos do projeto
 
-## Additional Resources
+- Navbar moderna com opções de login e cadastro
+- Carrossel interativo com destaque para receitas fit
+- Categorias para filtragem rápida dos pratos
+- Catálogo interativo dos nutricionistas com avaliações
+- Carrossel especial de promoções exibindo múltiplos pratos com descontos
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🛠️ Tecnologias utilizadas
+
+- Angular
+- Bootstrap
+- HTML/CSS
+- TypeScript
+
+## 📌 Contato
+
+Desenvolvido por **Abner Souza**.
+
+GitHub: [AbnerSouza2](https://github.com/AbnerSouza2)
+---
